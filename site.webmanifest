@@ -1,0 +1,16 @@
+{
+  "name": "MAZU - Seating the World with Excellence",
+  "short_name": "MAZU",
+  "description": "Premium folding chair manufacturer from Tianjin, China. Factory-direct pricing, massive capacity, and 50+ countries served.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0A2540",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

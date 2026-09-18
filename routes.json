@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/",
+    "file": "index.html",
+    "name": "MAZU - Seating the World with Excellence | Premium Folding Chairs"
+  },
+  {
+    "path": "/about",
+    "file": "about.html",
+    "name": "About Us - MAZU | Premium Folding Chair Manufacturer"
+  },
+  {
+    "path": "/blog",
+    "file": "blog.html",
+    "name": "News & Blog - MAZU | Furniture Industry Insights"
+  },
+  {
+    "path": "/cases",
+    "file": "cases.html",
+    "name": "Case Studies - MAZU | Success Stories & Client Projects"
+  },
+  {
+    "path": "/contact",
+    "file": "contact.html",
+    "name": "Contact Us - MAZU | Get a Free Quote Today"
+  },
+  {
+    "path": "/product-detail",
+    "file": "product-detail.html",
+    "name": "Product Detail - MAZU"
+  },
+  {
+    "path": "/products",
+    "file": "products.html",
+    "name": "Products - MAZU | Premium Folding Chairs & Tables"
+  }
+]

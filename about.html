@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About MAZU — a leading folding chair manufacturer founded in 2010 in Hebei, China. 500+ employees, 2M+ units annually, serving 50+ countries worldwide.">
+  <meta name="keywords" content="about mazu, folding chair factory, furniture manufacturer China, company history, hebei furniture">
+  <meta name="creative-medium" content="interactive-prototype">
+  <title>About Us - MAZU | Premium Folding Chair Manufacturer</title>
+  <link rel="preconnect" href="https://miaoda.feishu.cn">
+  <link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav" id="main-nav"></nav>
+  <div class="mobile-menu-overlay" id="mobile-menu-overlay" onclick="toggleMobileMenu()"></div>
+  <div class="mobile-menu" id="mobile-menu"></div>
+  
+  <div class="search-modal" id="search-modal">
+    <div class="search-inner">
+      <div class="search-input-wrap">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="search-input" placeholder="Search products, categories...">
+        <button class="search-close" onclick="closeSearch()" aria-label="Close search">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="search-suggestions">
+        <span>Popular:</span>
+        <a href="products.html?cat=plastic-folding-chair">Plastic Folding Chairs</a>
+        <a href="products.html?cat=metal-folding-chair">Metal Folding Chairs</a>
+        <a href="products.html?cat=outdoor-folding-chair">Outdoor Folding Chairs</a>
+        <a href="products.html?cat=folding-stool">Folding Stools</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-wrap" id="breadcrumb"></div>
+
+  <!-- Page Hero -->
+  <section class="page-hero dark">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow" style="color: #6BA5FF;">About MAZU</span>
+        <h1>Our Story of Growth,<br>Quality, and Partnership</h1>
+        <p>From our factory in Tianjin, China to businesses across 50+ countries — this is our story of growth, quality, and partnership.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Company Intro -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="about-intro">
+        <div class="about-intro-image reveal">
+          <img src="images/factory-interior.png" alt="MAZU factory interior">
+        </div>
+        <div class="about-intro-text reveal">
+          <span class="eyebrow">Who We Are</span>
+          <h2>Crafting Quality Seating Since 2010</h2>
+          <p>MAZU was founded in 2010 in Hebei Province, China — one of the country's largest manufacturing hubs. What started as a small workshop producing folding chairs for local markets has grown into a full-scale furniture manufacturer with over 500 employees and an annual output exceeding 2 million units.</p>
+          <p>Today we serve distributors, traders, procurement agencies, and enterprise clients across Europe, the Middle East, and the Americas. Our commitment remains unchanged: deliver exceptional quality at factory-direct prices, backed by reliable delivery and responsive service.</p>
+          <div class="about-stats-row">
+            <div class="about-stat">
+              <span class="stat-number"><span data-count="16" data-suffix="+">0</span></span>
+              <span class="stat-label">Years in Industry</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-number"><span data-count="500" data-suffix="+">0</span></span>
+              <span class="stat-label">Skilled Employees</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-number"><span data-count="50000" data-suffix="㎡">0</span></span>
+              <span class="stat-label">Factory Area</span>
+            </div>
+            <div class="about-stat">
+              <span class="stat-number"><span data-count="50" data-suffix="+">0</span></span>
+              <span class="stat-label">Export Countries</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Mission -->
+  <section class="section-padding features-section">
+    <div class="container">
+      <div class="values-grid" style="grid-template-columns: 1fr;">
+        <div style="display: grid; grid-template-columns: 1fr; gap: var(--space-md);">
+          <div class="value-card reveal" style="text-align: left; padding: var(--space-xl);">
+            <div class="value-icon" style="margin: 0 0 var(--space-md); width: 48px; height: 48px; font-size: 0.875rem;">VISION</div>
+            <h3 style="font-size: 1.5rem; margin-bottom: var(--space-sm);">To be the most trusted folding furniture manufacturer for global partners.</h3>
+            <p style="font-size: 1rem; color: var(--gray-600);">Delivering quality seating at factory-direct value to businesses on every continent.</p>
+          </div>
+          <div class="value-card reveal" style="text-align: left; padding: var(--space-xl);">
+            <div class="value-icon" style="margin: 0 0 var(--space-md); width: 48px; height: 48px; font-size: 0.875rem;">MISSION</div>
+            <h3 style="font-size: 1.5rem; margin-bottom: var(--space-sm);">Design, manufacture and deliver durable, affordable furniture that empowers businesses worldwide.</h3>
+            <p style="font-size: 1rem; color: var(--gray-600);">Through continuous innovation, sustainable materials, and customer-centric service, we build lasting partnerships.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Values -->
+  <section class="section-padding values-section">
+    <div class="container">
+      <div class="section-header center reveal">
+        <span class="eyebrow">Our Values</span>
+        <h2>What Drives Everything We Do</h2>
+        <p>Four core principles shape every decision, from the factory floor to the boardroom.</p>
+      </div>
+      <div class="values-grid" id="values-grid"></div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="section-padding timeline-section">
+    <div class="container">
+      <div class="section-header center reveal">
+        <span class="eyebrow">Our Journey</span>
+        <h2>16 Years of Growth & Innovation</h2>
+        <p>From a small workshop to a global manufacturer — key milestones along the way.</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-track" id="timeline-track"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Factory Showcase -->
+  <section class="section-padding factory-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Our Facilities</span>
+        <h2>Inside Our Factory</h2>
+        <p style="max-width: 600px;">A 50,000 m² production facility equipped with automated lines, advanced injection molding machines, and skilled craftsmanship.</p>
+      </div>
+      <div class="factory-grid">
+        <div class="factory-card reveal">
+          <img src="images/factory-interior.png" alt="Production line">
+          <div class="factory-card-info">
+            <h3>Automated Production</h3>
+            <p>State-of-the-art injection molding and stamping lines</p>
+          </div>
+        </div>
+        <div class="factory-card reveal">
+          <img src="images/warehouse.png" alt="Warehouse">
+          <div class="factory-card-info">
+            <h3>Warehouse & Logistics</h3>
+            <p>Organized inventory and efficient container loading</p>
+          </div>
+        </div>
+        <div class="factory-card reveal">
+          <img src="images/chair-collection.png" alt="Finished products">
+          <div class="factory-card-info">
+            <h3>Quality Finishing</h3>
+            <p>Every product inspected before packaging</p>
+          </div>
+        </div>
+        <div class="factory-card reveal">
+          <img src="images/conference-room.png" alt="Conference room">
+          <div class="factory-card-info">
+            <h3>R&D Center</h3>
+            <p>In-house design team and material labs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capacity Numbers -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header center reveal">
+        <span class="eyebrow">Capacity & Supply Chain</span>
+        <h2>Scale You Can Depend On</h2>
+        <p>Massive production capacity with the flexibility to handle both large volume orders and quick-turn shipments.</p>
+      </div>
+      <div class="capacity-grid">
+        <div class="capacity-card reveal">
+          <div class="capacity-number">20K<span class="unit"> / day</span></div>
+          <div class="capacity-label">Daily Output</div>
+        </div>
+        <div class="capacity-card reveal">
+          <div class="capacity-number">2M+<span class="unit"> / year</span></div>
+          <div class="capacity-label">Annual Production</div>
+        </div>
+        <div class="capacity-card reveal">
+          <div class="capacity-number">50K<span class="unit"> m²</span></div>
+          <div class="capacity-label">Factory Area</div>
+        </div>
+        <div class="capacity-card reveal">
+          <div class="capacity-number">15-25<span class="unit"> days</span></div>
+          <div class="capacity-label">Standard Lead Time</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why MAZU -->
+  <section class="section-padding features-section" id="why-mazu">
+    <div class="container">
+      <div class="section-header center reveal">
+        <span class="eyebrow">Why Choose MAZU</span>
+        <h2>Built for Global Business</h2>
+        <p>Six reasons distributors, traders, and enterprise clients across 50+ countries partner with us.</p>
+      </div>
+      <div class="features-grid" id="about-features"></div>
+    </div>
+  </section>
+
+  <!-- Sustainability -->
+  <section class="section-padding eco-section" id="sustainability">
+    <div class="container">
+      <div class="eco-content">
+        <div class="eco-text reveal">
+          <span class="eyebrow">Sustainability</span>
+          <h2>Building a Greener Future</h2>
+          <p>We take environmental responsibility seriously. From material sourcing to waste management, every part of our operation is designed to minimize environmental impact while delivering premium products.</p>
+          <div class="eco-features">
+            <div class="eco-feature">
+              <div class="eco-feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div>
+                <h4>Recycled Materials</h4>
+                <p>Our eco-line products use 100% recycled PP plastic, reducing waste and lowering carbon footprint.</p>
+              </div>
+            </div>
+            <div class="eco-feature">
+              <div class="eco-feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+              </div>
+              <div>
+                <h4>Waste Reduction</h4>
+                <p>Closed-loop recycling system recovers 95% of production scrap for reuse in manufacturing.</p>
+              </div>
+            </div>
+            <div class="eco-feature">
+              <div class="eco-feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"></path><path d="M12 6v6l4 2"></path></svg>
+              </div>
+              <div>
+                <h4>Energy Efficiency</h4>
+                <p>Solar installations and energy-efficient machinery reduce our factory's carbon emissions by 30% annually.</p>
+              </div>
+            </div>
+            <div class="eco-feature">
+              <div class="eco-feature-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div>
+                <h4>Certified Production</h4>
+                <p>ISO 14001 environmental management system and REACH compliance for all exported products.</p>
+              </div>
+            </div>
+          </div>
+          <div class="eco-certifications">
+            <div class="cert-badge">ISO 9001:2015</div>
+            <div class="cert-badge">ISO 14001</div>
+            <div class="cert-badge">REACH</div>
+            <div class="cert-badge">BIFMA X5.1</div>
+            <div class="cert-badge">EN 16139</div>
+          </div>
+        </div>
+        <div class="reveal" style="position: relative; aspect-ratio: 4/5; border-radius: var(--radius-xl); overflow: hidden;">
+          <img src="images/sustainable.png" alt="Sustainable furniture manufacturing" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container reveal">
+      <h2>Ready to Partner with MAZU?</h2>
+      <p>Get in touch with our team to discuss your project. We respond to all inquiries within 24 hours.</p>
+      <div class="cta-actions">
+        <a href="#" class="btn btn-light" onclick="openInquiry(); return false;">Request a Quote</a>
+        <a href="contact.html" class="btn btn-outline" style="color: #fff; border-color: rgba(255,255,255,0.4);">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="main-footer"></footer>
+
+  <div class="modal-overlay" id="inquiry-overlay"></div>
+
+  <a href="https://wa.me/8618526872467" class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <button class="back-to-top" id="back-to-top" onclick="scrollToTop()" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      initApp('about');
+      renderBreadcrumb([{ label: 'About Us' }]);
+
+      // Values
+      const valuesGrid = document.getElementById('values-grid');
+      if (valuesGrid) {
+        valuesGrid.innerHTML = SITE_DATA.values.map((v, i) => `
+          <div class="value-card reveal" style="transition-delay: ${i * 0.1}s">
+            <div class="value-icon">${v.icon}</div>
+            <h3>${v.title}</h3>
+            <p>${v.desc}</p>
+          </div>
+        `).join('');
+      }
+
+      // Timeline
+      const timelineTrack = document.getElementById('timeline-track');
+      if (timelineTrack) {
+        timelineTrack.innerHTML = SITE_DATA.timeline.map((t, i) => `
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">${t.year}</div>
+              <div class="timeline-title">${t.title}</div>
+              <div class="timeline-desc">${t.desc}</div>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // Features
+      const aboutFeatures = document.getElementById('about-features');
+      if (aboutFeatures) {
+        const icons = {
+          factory: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"></path></svg>',
+          capacity: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"></path><path d="M7 14l4-4 4 4 5-5"></path></svg>',
+          delivery: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1z"></path><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>',
+          design: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><circle cx="11" cy="11" r="2"></circle></svg>',
+          quality: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>',
+          global: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></path></svg>',
+        };
+        aboutFeatures.innerHTML = SITE_DATA.advantages.map((a, i) => `
+          <div class="feature-card reveal" style="transition-delay: ${i * 0.1}s">
+            <div class="feature-icon">${icons[a.icon] || icons.factory}</div>
+            <h3>${a.title}</h3>
+            <p>${a.desc}</p>
+          </div>
+        `).join('');
+      }
+
+      initReveal();
+      initCounters();
+    });
+  </script>
+</body>
+</html>

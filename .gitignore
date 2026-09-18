@@ -1,0 +1,38 @@
+# Dependencies (none expected — buildless — but keep ignored just in case)
+node_modules/
+
+# Build / deploy output
+dist/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Cache files
+.npm_cache
+
+# Agent files
+.agent/
+
+# Quarantined CDN error pages (not used by the site)
+_junk_cdn_errors/
+
+# Miaoda export metadata (not needed for deployment)
+.spark/
