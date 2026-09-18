@@ -6,6 +6,12 @@
   <meta name="description" content="Detailed product specifications for MAZU folding chairs. Dimensions, materials, packing, container loading, and more.">
   <meta name="creative-medium" content="interactive-prototype">
   <title>Product Detail - MAZU</title>
+  <link rel="canonical" href="https://mazuchair.com/product-detail.html">
+  <meta property="og:url" content="https://mazuchair.com/product-detail.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Product Detail - MAZU">
+  <meta property="og:description" content="Detailed product specifications for MAZU folding chairs. Dimensions, materials, packing, container loading, and more.">
+  <meta property="og:image" content="https://mazuchair.com/images/chair-collection.png">
   <link rel="preconnect" href="https://miaoda.feishu.cn">
   <link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Inter:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="css/style.css">
@@ -101,6 +107,18 @@
       // Update page title
       document.title = product.name + ' - MAZU';
       document.querySelector('meta[name="description"]').content = product.description + ' SKU: ' + product.sku;
+      // Update canonical + OG tags for this specific product (SEO URL normalization)
+      const seoUrl = 'https://mazuchair.com/product-detail.html?id=' + product.id;
+      const canon = document.querySelector('link[rel="canonical"]');
+      if (canon) canon.setAttribute('href', seoUrl);
+      const ogUrl = document.querySelector('meta[property="og:url"]');
+      if (ogUrl) ogUrl.setAttribute('content', seoUrl);
+      const ogT = document.querySelector('meta[property="og:title"]');
+      if (ogT) ogT.setAttribute('content', product.name + ' - MAZU');
+      const ogD = document.querySelector('meta[property="og:description"]');
+      if (ogD) ogD.setAttribute('content', product.description);
+      const ogI = document.querySelector('meta[property="og:image"]');
+      if (ogI) ogI.setAttribute('content', 'https://mazuchair.com/' + imgUrl(product.image));
 
       // Gallery images (main + 4 thumbs)
       const images = product.images && product.images.length 
