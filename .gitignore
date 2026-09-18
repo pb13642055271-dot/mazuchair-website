@@ -36,3 +36,10 @@ _junk_cdn_errors/
 
 # Miaoda export metadata (not needed for deployment)
 .spark/
+
+# Working / agent artifacts (not part of the site)
+mazu-website.zip
+prep_log.txt
+token_map.json
+package-lock.json
+
