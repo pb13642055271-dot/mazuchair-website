@@ -93,10 +93,21 @@ git push -u origin main
 
 ## 第 4 步：绑定自定义域名 mazuchair.com
 
-1. 在 Vercel 项目页 → 顶部 **Settings → Domains**
-2. 输入框填 `mazuchair.com`，回车
-3. Vercel 会让你再添加 `www.mazuchair.com`（建议同时加，避免用户输入 www 时打不开）
-4. 添加后，Vercel 会显示**该域名需要的 DNS 记录**（见下一步，以页面上显示的值为准）
+> ⚠️ **找不到 Domains 的最常见原因**：Vercel 有「账户级 Settings」和「项目级 Settings」两处，
+> 域名必须加在**项目级**。不是右上角头像点出来的 Settings，而是**进到 mazuchair-website 项目里**的左侧 Settings。
+>
+> **最稳的办法（直接用 URL）**：在浏览器里打开你的项目页，地址栏通常是
+> `https://vercel.com/<你的用户名或团队名>/mazuchair-website`
+> 直接在末尾补上 `/settings/domains` 回车，就能直达域名页。
+> （你的用户名从地址栏读即可，例如 `https://vercel.com/pb13642055271-dot/mazuchair-website/settings/domains`）
+
+1. 打开 https://vercel.com → 进入 **mazuchair-website** 项目（不是 Vercel 主页）
+2. 看项目页**左侧边栏**：点 **Settings**（在 Deployments / Analytics 下方）；点开后左侧会再出现一列子菜单，
+   里面有 **General / Domains / Environment Variables / Git …**，点 **Domains**
+   - 若左侧边栏直接就有 **Domains** 一项（部分新版界面），直接点它也行
+3. 点 **Add Domain** → 输入框填 `mazuchair.com` → 回车确认
+4. Vercel 会弹出提示让你**一并添加 `www.mazuchair.com`**，建议加上（避免用户输 www 时打不开）
+5. 添加后，页面会显示**该域名需要的 DNS 记录**（见第 5 步；以页面上显示的值为最终准）
 
 ---
 
